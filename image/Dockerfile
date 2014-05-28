@@ -14,6 +14,9 @@ RUN /build/sshd/install.sh
 ADD build/rsyslogd /build/rsyslogd
 RUN /build/rsyslogd/install.sh
 
+ADD build/my_init /build/my_init
+RUN /build/my_init/install.sh
+
 #RUN /build/clean.sh
 
-CMD runit
+CMD /sbin/my_init.py
