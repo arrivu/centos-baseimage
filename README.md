@@ -8,11 +8,11 @@ Provides you with:
 Build it
 --------
 
-    git clone https://github.com/pokle/centos-baseimage
+    git clone https://github.com/arrivu/centos-baseimage
     cd centos-baseimage
     ./image/build.sh
 
-This will produce an image called poklet/centos-baseimage
+This will produce an image called arrivu/centos-baseimage
 
 Running it
 ----------
